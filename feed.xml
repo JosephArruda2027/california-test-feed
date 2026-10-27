@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>California Test Show</title>
+    <link>https://josepharruda2027.github.io/california-test-feed/</link>
+    <description>A made-up show for testing the California TV app's PODCASTS. Tones only. Not a real podcast.</description>
+    <language>en-us</language>
+    <itunes:author>California testing</itunes:author>
+    <itunes:image href="https://josepharruda2027.github.io/california-test-feed/cover.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>Yes</itunes:block>
+    <podcast:locked>yes</podcast:locked>
+    <item>
+      <title>Episode 3: Three chapters</title>
+      <description>Two minutes in three chapters (Start, Middle, End), each its own tone.</description>
+      <guid isPermaLink="false">california-test-show-3</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://josepharruda2027.github.io/california-test-feed/episode3.wav" length="3840044" type="audio/wav"/>
+      <itunes:duration>2:00</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <podcast:chapters url="https://josepharruda2027.github.io/california-test-feed/episode3-chapters.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>Episode 2: Middle tones</title>
+      <description>Two minutes of middle tones. A click every 10 seconds; three beeps at the end.</description>
+      <guid isPermaLink="false">california-test-show-2</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://josepharruda2027.github.io/california-test-feed/episode2.wav" length="3840044" type="audio/wav"/>
+      <itunes:duration>2:00</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+    </item>
+    <item>
+      <title>Episode 1: Low tones</title>
+      <description>Two minutes of low tones. A click every 10 seconds; three beeps at the end.</description>
+      <guid isPermaLink="false">california-test-show-1</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://josepharruda2027.github.io/california-test-feed/episode1.wav" length="3840044" type="audio/wav"/>
+      <itunes:duration>2:00</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+    </item>
+  </channel>
+</rss>
